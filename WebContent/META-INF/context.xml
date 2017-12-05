@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+
+  <Resource name="jdbc/UST-ESC-DS" auth="Container"
+            type="javax.sql.DataSource" username="admin" password="1234"
+            driverClassName="net.sourceforge.jtds.jdbc.Driver" 
+            url="jdbc:jtds:sqlserver://localhost:1433;DatabaseName=ESC;SelectMethod=cursor;"
+            maxActive="50" 
+            />
+  <Parameter name="emailUsername" value="ustesc1516@gmail.com"
+          override="false"/> 
+           
+  <Parameter name="emailPassword" value="PSkoThtVMypDo6aRuK067Q=="
+          override="false"/>
+
+</Context>
